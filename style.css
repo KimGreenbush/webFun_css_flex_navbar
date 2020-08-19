@@ -1,0 +1,45 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*part one*/
+.center-box {
+	display: flex;
+	background-color: darkblue;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-item {
+	background-color: white;
+	height: 80px;
+	width: 80px;
+}
+
+/* part two */
+#nav {
+      display: flex;
+      justify-content: space-between ;
+      background-color: blue;
+      padding: 10px;
+      align-items: center;
+      color: white;
+      font-size: small;
+      font-family: Montserrat, sans-serif;
+}
+
+img {
+	width: 10%;
+}
+
+li {
+      display: inline-block;
+      padding: 40px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
